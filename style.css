@@ -1,0 +1,121 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: border-box;
+}
+
+:root {
+  /* Amazon Primary Colors */
+  --amazon-orange: #FF9900;
+  --amazon-dark: #131921;
+  --amazon-navy: #232F3E;
+
+  /* Amazon Secondary Colors */
+  --amazon-light-gray: #EAEDED;
+  --amazon-gray: #DDD;
+  --amazon-text-dark: #0F1111;
+  --amazon-text-light: #FFFFFF;
+
+  /* Amazon Button Colors */
+  --amazon-btn-yellow: #FFD814;
+  --amazon-btn-yellow-hover: #F7CA00;
+
+  /* Amazon Border & Shadow */
+  --amazon-border: #D5D9D9;
+  --amazon-shadow: rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar Wrapper */
+.amazon-navbar {
+  background-color: var(--amazon-dark);
+  color: var(--amazon-text-light);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 8px 16px;
+  gap: 16px;
+  font-family: Arial, sans-serif;
+  height: 65px;
+}
+
+/* Logo */
+.amazon-logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--amazon-text-light);
+  cursor: pointer;
+}
+
+.amazon-logo span {
+  color: var(--amazon-orange);
+}
+
+/* Location */
+.amazon-location {
+  font-size: 12px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.amazon-location strong {
+  font-size: 14px;
+}
+
+/* Search Bar */
+.amazon-search {
+  flex: 1;
+  display: flex;
+  height: 40px;
+}
+
+.amazon-search select {
+  width: 55px;
+  border: none;
+  background: #f3f3f3;
+  padding: 0 6px;
+}
+
+.amazon-search input {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.amazon-search button {
+  width: 45px;
+  background-color: var(--amazon-orange);
+  border: none;
+  cursor: pointer;
+}
+
+/* Right Menu */
+.amazon-menu {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.amazon-menu div {
+  cursor: pointer;
+}
+
+.amazon-menu strong {
+  font-size: 14px;
+}
+
+/* Cart */
+.amazon-cart {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.amazon-cart span {
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+
+
